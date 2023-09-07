@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HNGx Phase One Task</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <main>
+        <!-- profile Image -->
+        <section>
+            <img src="./avatar.jpg" alt="slackDisplayImage" data-testid="slackDisplayImage">
+        </section>
+        <!-- name / day of the week / time-->
+        <section>
+            <h1 data-testid="slackUserName">Olajide Samuel</h1>
+            <div class="date-time">
+                <span data-testid="currentDayOfTheWeek" id="day-of-week"></span>
+                <span data-testid="currentUTCTime" id="time"></span>
+            </div>
+        </section>
+        <!-- others -->
+        <section>
+            <div class="track" data-testid="myTrack">Frontend</div>
+            <a href="">
+                <button data-testid="githubURL" class="btn-link">Github</button>
+            </a>
+        </section>
+    </main>
+</body>
+</html>
