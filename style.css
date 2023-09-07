@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+    justify-content: center;
+}
+
+#avatar{
+    width: 20rem;
+    height: 20rem;
+    display: block;
+    border-radius: 50%;
+    border: 7px solid rgb(152, 240, 171);
+    box-shadow: 0px 0px 3rem rgba(27, 158, 24, 0.502);
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.user-name{
+    margin-bottom: 1rem;
+}
+
+.track{
+    background-color: rgb(59, 131, 74);
+    padding: .5rem;
+    border-radius: 5px;
+    width: fit-content;
+    color: white;
+    margin-bottom: 2rem;
+}
+
+
+
+.btn-link{
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 1rem 2rem;
+    font-weight: bold;
+    font-size: 1rem;
+    border: 2px solid rgb(152, 240, 171); 
+}

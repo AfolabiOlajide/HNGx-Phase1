@@ -11,21 +11,21 @@
     <main>
         <!-- profile Image -->
         <section>
-            <img src="./avatar.jpg" alt="slackDisplayImage" data-testid="slackDisplayImage">
+            <img id="avatar" src="./avatar.jpg" alt="slackDisplayImage" data-testid="slackDisplayImage">
         </section>
         <!-- name / day of the week / time-->
-        <section>
-            <h1 data-testid="slackUserName">Olajide Samuel</h1>
+        <section class="info">
+            <h1 data-testid="slackUserName" class="user-name">Olajide Samuel</h1>
+            <div class="track" data-testid="myTrack">Frontend</div>
             <div class="date-time">
                 <span data-testid="currentDayOfTheWeek" id="day-of-week"></span>
                 <span data-testid="currentUTCTime" id="time"></span>
             </div>
         </section>
         <!-- others -->
-        <section>
-            <div class="track" data-testid="myTrack">Frontend</div>
-            <a href="">
-                <button data-testid="githubURL" class="btn-link">Github</button>
+        <section class="others">
+            <a href="https://github.com/AfolabiOlajide/HNGx-Phase1" target="_blank">
+                <button data-testid="githubURL" class="btn-link">View Code</button>
             </a>
         </section>
     </main>
